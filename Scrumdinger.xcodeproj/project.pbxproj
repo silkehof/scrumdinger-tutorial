@@ -20,6 +20,7 @@
 		615CF7222A43B2B000E80886 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615CF7212A43B2B000E80886 /* DetailEditView.swift */; };
 		615CF7242A53F15400E80886 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615CF7232A53F15400E80886 /* ThemeView.swift */; };
 		615CF7262A53F3C000E80886 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615CF7252A53F3C000E80886 /* ThemePicker.swift */; };
+		615CF7282A5DD56D00E80886 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615CF7272A5DD56D00E80886 /* MeetingHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		615CF7212A43B2B000E80886 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		615CF7232A53F15400E80886 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		615CF7252A53F3C000E80886 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		615CF7272A5DD56D00E80886 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				615CF7212A43B2B000E80886 /* DetailEditView.swift */,
 				615CF7232A53F15400E80886 /* ThemeView.swift */,
 				615CF7252A53F3C000E80886 /* ThemePicker.swift */,
+				615CF7272A5DD56D00E80886 /* MeetingHeaderView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				615CF7262A53F3C000E80886 /* ThemePicker.swift in Sources */,
 				6155C9BB2A21751B00F6B7AD /* DailyScrum.swift in Sources */,
 				6155C9C32A22CC5000F6B7AD /* DetailView.swift in Sources */,
+				615CF7282A5DD56D00E80886 /* MeetingHeaderView.swift in Sources */,
 				615CF7222A43B2B000E80886 /* DetailEditView.swift in Sources */,
 				6155C9BF2A22072100F6B7AD /* TrailingIconLabelStyle.swift in Sources */,
 				6155C9B92A21723400F6B7AD /* Theme.swift in Sources */,
