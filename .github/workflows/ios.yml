@@ -24,7 +24,7 @@ jobs:
         env:
           scheme: ${{ 'default' }}
           platform: ${{ 'iOS Simulator' }}
-          destination: "platform=iOS Simulator,id=AFC3680B-BEE3-469C-9738-F0423CFBD064,OS=16.2,name=iPhone 14"
+          destination: "platform=iOS Simulator,OS=16.2,name=iPhone 14"
         run: |
           # xcrun xctrace returns via stderr, not the expected stdout (see https://developer.apple.com/forums/thread/663959)
           # device=`xcrun xctrace list devices 2>&1 | grep -oE 'iPhone.*?[^\(]+' | head -1 | awk '{$1=$1;print}' | sed -e "s/ Simulator$//"`
@@ -36,7 +36,7 @@ jobs:
         env:
           scheme: ${{ 'default' }}
           platform: ${{ 'iOS Simulator' }}
-          destination: "platform=iOS Simulator,id=AFC3680B-BEE3-469C-9738-F0423CFBD064,OS=16.2,name=iPhone 14"
+          destination: "platform=iOS Simulator,OS=16.2,name=iPhone 14"
         run: |
           # xcrun xctrace returns via stderr, not the expected stdout (see https://developer.apple.com/forums/thread/663959)
           # device=`xcrun xctrace list devices 2>&1 | grep -oE 'iPhone.*?[^\(]+' | head -1 | awk '{$1=$1;print}' | sed -e "s/ Simulator$//"`
