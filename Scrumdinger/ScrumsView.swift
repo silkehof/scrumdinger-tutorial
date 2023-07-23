@@ -28,6 +28,7 @@ struct ScrumsView: View {
                 }
                 .accessibilityLabel("New Scrum")
             }
+            // Determines if modal to create new scrum is shown (boolean)
             .sheet(isPresented: $isPresentingNewScrumView) {
                 NewScrumSheet(scrums: $scrums, isPresentingNewScrumView: $isPresentingNewScrumView)
             }
