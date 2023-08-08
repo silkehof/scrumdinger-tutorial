@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		614E04EB2A7E361000DF609D /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614E04EA2A7E361000DF609D /* ErrorWrapper.swift */; };
 		6155C9A82A21522000F6B7AD /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155C9A72A21522000F6B7AD /* ScrumdingerApp.swift */; };
 		6155C9AA2A21522000F6B7AD /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155C9A92A21522000F6B7AD /* MeetingView.swift */; };
 		6155C9AC2A21522100F6B7AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6155C9AB2A21522100F6B7AD /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		614E04EA2A7E361000DF609D /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		6155C9A42A21522000F6B7AD /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6155C9A72A21522000F6B7AD /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		6155C9A92A21522000F6B7AD /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				61948E012A64A403003EAE74 /* AVPlayer+Ding.swift */,
 				61948E082A6DC602003EAE74 /* History.swift */,
 				61948E0A2A7064E9003EAE74 /* ScrumStore.swift */,
+				614E04EA2A7E361000DF609D /* ErrorWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				6155C9BB2A21751B00F6B7AD /* DailyScrum.swift in Sources */,
 				61948E0B2A7064E9003EAE74 /* ScrumStore.swift in Sources */,
 				6155C9C32A22CC5000F6B7AD /* DetailView.swift in Sources */,
+				614E04EB2A7E361000DF609D /* ErrorWrapper.swift in Sources */,
 				615CF7282A5DD56D00E80886 /* MeetingHeaderView.swift in Sources */,
 				615CF7222A43B2B000E80886 /* DetailEditView.swift in Sources */,
 				61948E072A6604A6003EAE74 /* NewScrumSheet.swift in Sources */,
