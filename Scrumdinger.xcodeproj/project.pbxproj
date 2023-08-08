@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		614E04EB2A7E361000DF609D /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614E04EA2A7E361000DF609D /* ErrorWrapper.swift */; };
+		614E04ED2A82DE6500DF609D /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614E04EC2A82DE6500DF609D /* ErrorView.swift */; };
 		6155C9A82A21522000F6B7AD /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155C9A72A21522000F6B7AD /* ScrumdingerApp.swift */; };
 		6155C9AA2A21522000F6B7AD /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155C9A92A21522000F6B7AD /* MeetingView.swift */; };
 		6155C9AC2A21522100F6B7AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6155C9AB2A21522100F6B7AD /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		614E04EA2A7E361000DF609D /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		614E04EC2A82DE6500DF609D /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		6155C9A42A21522000F6B7AD /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6155C9A72A21522000F6B7AD /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		6155C9A92A21522000F6B7AD /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		6155C9A62A21522000F6B7AD /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				614E04EC2A82DE6500DF609D /* ErrorView.swift */,
 				61948E032A64A444003EAE74 /* Resources */,
 				6155C9B52A21718600F6B7AD /* Models */,
 				6155C9A72A21522000F6B7AD /* ScrumdingerApp.swift */,
@@ -215,6 +218,7 @@
 				615CF7262A53F3C000E80886 /* ThemePicker.swift in Sources */,
 				61AAE7122A5F5637009D8010 /* ScrumProgressViewStyle.swift in Sources */,
 				61AAE7162A609954009D8010 /* MeetingFooterView.swift in Sources */,
+				614E04ED2A82DE6500DF609D /* ErrorView.swift in Sources */,
 				61AAE7142A5F5775009D8010 /* ScrumTimer.swift in Sources */,
 				6155C9BB2A21751B00F6B7AD /* DailyScrum.swift in Sources */,
 				61948E0B2A7064E9003EAE74 /* ScrumStore.swift in Sources */,
