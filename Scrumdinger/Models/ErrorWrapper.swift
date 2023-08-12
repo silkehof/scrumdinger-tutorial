@@ -16,5 +16,5 @@ struct ErrorWrapper: Identifiable {
             self.id = id
             self.error = error
             self.guidance = guidance
-        }
+    }
 }
